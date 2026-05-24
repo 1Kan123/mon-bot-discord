@@ -21,7 +21,7 @@ const client = new Client({
 });
 
 // ===== CONFIG — MODIFIE CES VALEURS =====
-const TOKEN = 'MTUwNzg2Mjk0MTM1MTkzNjE3Mg.GKMSNt.2yVHUxgTomE1Yi0T_hB_u8y3Q2GgduYcBtYN6c';
+const TOKEN = process.env.TOKEN;
 const CLIENT_ID = '1507862941351936172';
 const TICKET_CATEGORY_NAME = 'Tickets';
 const ADMIN_PAYPAL = 'kan.tiktoksab@gmail.com'; // Ton PayPal à toi (l'admin)
